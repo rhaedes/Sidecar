@@ -1,0 +1,14 @@
+{
+  "name": "Sitecore",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Sitecore Chrome extension.",
+  "permissions": [
+					"tabs", 
+					"webNavigation"
+					],
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_popup": "popup.html"
+  }
+}
